@@ -1,0 +1,161 @@
+/* home style */
+.home{
+background-image: linear-gradient(rgba(204, 114, 114, 0.667), rgba(214, 46, 51 , 0.6)),url(../images/events-heavenly-header.jpg);
+background-position: center center;
+background-size:cover;
+position: relative;
+}
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.home .content h1{
+    font-size: 60px;
+}
+#sidpar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 999999999999;
+    left: -250px;
+    overflow-x: hidden;
+}
+.sidparinner{
+    background-color : #111!important;
+    overflow-x: hidden;
+    transition: 1s;
+    display: flex;  
+    flex-direction: column; 
+    align-items: flex-start;
+    overflow-x: hidden;
+}
+.sidparinner a:hover {
+    color: rgba(214, 46, 51 , 0.4);
+}
+.sidparinner a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+    color: white;
+}
+.openNav {
+    position: absolute;
+    /* width: 0;  */
+    left: 15px;
+    font-size:30px;
+    cursor:pointer;
+    align-self: flex-end!important;
+}
+.closebtn {
+    font-size: 36px !important;
+    margin-left: 160px;
+}
+
+
+/* sliderdown style */
+.innercontainent{
+    display:none;
+    padding: 10px;
+}
+#sliderDown h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+#sliderDown {
+    margin: 100px auto;
+    width: 50%;
+}
+#count {
+    background-image: linear-gradient(rgba(204, 114, 114, 0.667), rgba(214, 46, 51 , 0.6)),url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+    background-size:cover;
+}
+.container {
+    padding: 100px 100px;
+}
+.date {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFF;
+}
+
+
+/* contact us */
+#contact-us {
+    margin-top: 100px;
+    padding: 0px 100px; 
+}
+#contact-us .CONTACTINFO .social-list {
+    margin-top: 60px;
+    color: #777;
+}
+#contact-us .CONTACTINFO .social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact-us .CONTACTINFO .social-list i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+#contact-us .contact h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact-us .contact p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact-us .CONTACTINFO h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contact-us .red {
+    color: #D62E33 !important;
+}
+#contact-us .CONTACTINFO p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+#contact-us form input, #contact-us form textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#contact-us form textarea {
+    height: 200px;
+    resize: vertical;
+}
+#contact-us form button {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+#chars {
+    color:#D62E33
+}
